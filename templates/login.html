@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página de Login</title>
+
+  <link rel="stylesheet" href="static/style.css">
+  <link rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Login</h1>
+    <form class="flex-column" action="/signin" method="POST">
+        <input class="text" type="email" name="email" placeholder="E-mail">
+
+        <input class="text" type="password" name="password" placeholder="Senha">
+
+        <button type="submit">
+            Login
+        </button>
+
+        <a href="/register">Cadastrar</a>
+    </form>
+  </div>
+</body>
+</html>

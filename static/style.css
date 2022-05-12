@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  padding: 40px;
+  margin: 20px;
+}
+
+.container form {
+  display: flex;
+  align-items: center;
+  margin: 12px 0;
+}
+
+.container form input {
+  margin-right: 12px;
+}
+
+.container ul {
+  margin-top: 30px;
+  list-style-type: none;
+}
+
+.container ul form a {
+  margin-left: 12px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch !important;
+}
+
+.flex-column * {
+  margin-bottom: 8px;
+}
